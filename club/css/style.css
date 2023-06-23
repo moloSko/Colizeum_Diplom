@@ -1,0 +1,106 @@
+@charset "utf-8";
+html {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+body {
+	display: block;
+	font: 62.5% Open Sans, Freesans, sans-serif;
+}
+.login-wrapper {
+	margin: 80px auto;
+	width: 325px;
+}
+form h1 {
+	color: #dedede;
+	font-size: 2.8em;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+form h1 span {
+	font-weight: 500;
+	letter-spacing: -1px;
+
+}
+form input {
+	border: none;
+	margin: 0;
+}
+.default{
+	background-color: #212121;
+}
+.colizeum-top {
+	line-height: 24px;
+	font-size: 11px;
+	background: #eee;
+	text-transform: uppercase;
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-family: calibri;
+	font-size: 13px;
+	box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2);
+}
+.colizeum-top a {
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	text-shadow: 0px 1px 1px #fff;
+	display: block;
+	float: left;
+	text-decoration: none;
+}
+.colizeum-top form input {
+	float: right;
+	padding: 5px;
+}
+.colizeum-top a:hover {
+	background: #fff;
+}
+.coliznav{
+    font-family: calibri;
+}
+.iconav{
+	color: #000000;
+}
+.container{
+	margin-top: 20px;
+    padding-top: 40px;
+	border-radius: 0.25rem;
+    background: black;
+}
+.progress{
+	margin-bottom: 5px;
+}
+#bar-col{
+	background-color: #d1b00f;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-footer{
+	display: contents;
+}
+.btn-primary{
+	margin: 10px 10px;
+}
+.text-muted{
+	padding-left: 12px;
+}
+.container:hover{
+	border: 2px solid #d1b00f;
+}
+.card:hover{
+	border: 2px solid #212121;
+}
+@font-face {
+	font-family: 'Poor Story';
+	src: local('Poor Story'),
+		url(../font/ofont.ru_Saytag.ttf);
+}
